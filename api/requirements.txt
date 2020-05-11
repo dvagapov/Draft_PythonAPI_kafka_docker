@@ -1,0 +1,9 @@
+werkzeug==0.16.0
+Flask==1.1.1
+Flask_restx==0.1.1
+Flask-HTTPAuth==3.3.0
+psycopg2-binary==2.8.4
+flask-kafka
+kafka-python
+mysql-connector
+boto3
