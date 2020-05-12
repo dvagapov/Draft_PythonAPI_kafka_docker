@@ -1,9 +1,11 @@
 ## Use docker-compose
 
 Start docker-compose
+
 	$ docker-compose up --force-recreate --build 
 	
 Will run four containers:
+
 	api  - python Flask API
 	postgres  - DB postgreSQL 
 	broker    - kafka-broker
@@ -15,6 +17,7 @@ For postgres will also execute pgconfig/init_db.sql. The script contains Schema 
 In file "api/produce_data_test.py" I add example of extract and load data into kafka-topic.
 
 ### Usage API service
+
 	#### Default token auth
 	$ -H 'Authorization: Token tokenTest1'
 	
