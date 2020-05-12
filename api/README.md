@@ -1,19 +1,3 @@
-## Use docker-compose
-
-go to project folder and then:
-	$ docker-compose up
-	
-Will run four containers:
-	api  - python Flask API
-	postgres  - DB postgreSQL 
-	broker    - kafka-broker
-	zookeeper - zookeeper for kafka-broker
-
-For postgres will also execute pgconfig/init_db.sql. The script contains Schema of DB recommendation with small sample data. 
-
-## Produce data from Different source example
-In file "produce_data_test.py" I add example of extract and load data into kafka-topic.
-
 ## Used libs for API:
 	* json
 	* sys, os, io, base64
